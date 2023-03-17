@@ -60,4 +60,9 @@ class WorkflowController extends Controller
 
         return 204;
     }
+
+    public function GenerateDiagramFlow($id)
+    {
+        return Workflow::find($id);
+    }
 }

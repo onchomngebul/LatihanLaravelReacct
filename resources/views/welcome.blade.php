@@ -11,13 +11,13 @@
 </head>
 <body class="dx-viewport">
     <div id="root">
-        <div id="hello-react"></div>
-        <div id="counter"></div>
-        <div id="gim"></div>
+        <div id="title">BUCHO FLOOWWW</div>
+        <div id="ddw"></div>
+        <div class="row">
+            <div id="tombol"></div>
+            <div id="diagramDex"></div>
+        </div>
     </div>
-    <div class="row">
-        <div id="tombol"></div>
-        <div id="diagramDex"></div>
-    </div>
+
 </body>
 </html>
