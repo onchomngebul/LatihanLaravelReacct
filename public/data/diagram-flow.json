@@ -1,5 +1,5 @@
 {
-  "wf_id": 0,
+  "wf_id": null,
   "page": {
     "wf_name": "Asset Installation",
     "width": 15000,
@@ -12,7 +12,7 @@
   },
   "connectors": [
     {
-      "key": "c224",
+      "key": "c166",
       "points": [
         {
           "x": 0,
@@ -25,15 +25,15 @@
       ],
       "zIndex": 0,
       "texts": {
-        "0.5": "flow 15"
+        "0.5": "flow 14"
       },
-      "beginItemKey": "222",
+      "beginItemKey": "171",
       "beginConnectionPointIndex": 2,
-      "endItemKey": "223",
+      "endItemKey": "78",
       "endConnectionPointIndex": 0
     },
     {
-      "key": "c225",
+      "key": "c70",
       "points": [
         {
           "x": 0,
@@ -46,11 +46,53 @@
       ],
       "zIndex": 0,
       "texts": {
-        "0.5": "flow 16"
+        "0.7": "network iconplus"
       },
-      "beginItemKey": "223",
+      "beginItemKey": "72",
       "beginConnectionPointIndex": 2,
-      "endItemKey": "88",
+      "endItemKey": "73",
+      "endConnectionPointIndex": 0
+    },
+    {
+      "key": "c77",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "zIndex": 0,
+      "texts": {
+        "0.7": "network"
+      },
+      "beginItemKey": "80",
+      "beginConnectionPointIndex": 1,
+      "endItemKey": "73",
+      "endConnectionPointIndex": 1
+    },
+    {
+      "key": "c94",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "zIndex": 0,
+      "texts": {
+        "0.7": "network sendiri"
+      },
+      "beginItemKey": "72",
+      "beginConnectionPointIndex": 2,
+      "endItemKey": "171",
       "endConnectionPointIndex": 0
     },
     {
@@ -117,6 +159,27 @@
       "endConnectionPointIndex": 0
     },
     {
+      "key": "c71",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "zIndex": 0,
+      "texts": {
+        "0.7": "flow 4"
+      },
+      "beginItemKey": "72",
+      "beginConnectionPointIndex": 3,
+      "endItemKey": "78",
+      "endConnectionPointIndex": 3
+    },
+    {
       "key": "c73",
       "points": [
         {
@@ -138,7 +201,7 @@
       "endConnectionPointIndex": 0
     },
     {
-      "key": "c71",
+      "key": "c79",
       "points": [
         {
           "x": 0,
@@ -151,11 +214,11 @@
       ],
       "zIndex": 0,
       "texts": {
-        "0.5": "flow 4"
+        "0.7": "data perangkat"
       },
-      "beginItemKey": "72",
+      "beginItemKey": "80",
       "beginConnectionPointIndex": 2,
-      "endItemKey": "78",
+      "endItemKey": "94",
       "endConnectionPointIndex": 0
     },
     {
@@ -198,27 +261,6 @@
       "beginItemKey": "78",
       "beginConnectionPointIndex": 2,
       "endItemKey": "79",
-      "endConnectionPointIndex": 0
-    },
-    {
-      "key": "c79",
-      "points": [
-        {
-          "x": 0,
-          "y": 0
-        },
-        {
-          "x": 0,
-          "y": 0
-        }
-      ],
-      "zIndex": 0,
-      "texts": {
-        "0.7": "data perangkat"
-      },
-      "beginItemKey": "80",
-      "beginConnectionPointIndex": 2,
-      "endItemKey": "94",
       "endConnectionPointIndex": 0
     },
     {
@@ -306,27 +348,6 @@
       "endConnectionPointIndex": 0
     },
     {
-      "key": "c85",
-      "points": [
-        {
-          "x": 0,
-          "y": 0
-        },
-        {
-          "x": 0,
-          "y": 0
-        }
-      ],
-      "zIndex": 0,
-      "texts": {
-        "0.5": "Acknowledge"
-      },
-      "beginItemKey": "86",
-      "beginConnectionPointIndex": 2,
-      "endItemKey": "84",
-      "endConnectionPointIndex": 0
-    },
-    {
       "key": "c83",
       "points": [
         {
@@ -366,6 +387,27 @@
       "beginItemKey": "192",
       "beginConnectionPointIndex": 2,
       "endItemKey": "81",
+      "endConnectionPointIndex": 0
+    },
+    {
+      "key": "c85",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "zIndex": 0,
+      "texts": {
+        "0.5": "Acknowledge"
+      },
+      "beginItemKey": "86",
+      "beginConnectionPointIndex": 2,
+      "endItemKey": "84",
       "endConnectionPointIndex": 0
     },
     {
@@ -472,6 +514,48 @@
       "beginConnectionPointIndex": 2,
       "endItemKey": "82",
       "endConnectionPointIndex": 0
+    },
+    {
+      "key": "c225",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "zIndex": 0,
+      "texts": {
+        "0.5": "flow 16"
+      },
+      "beginItemKey": "223",
+      "beginConnectionPointIndex": 2,
+      "endItemKey": "88",
+      "endConnectionPointIndex": 0
+    },
+    {
+      "key": "c224",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "zIndex": 0,
+      "texts": {
+        "0.5": "flow 15"
+      },
+      "beginItemKey": "222",
+      "beginConnectionPointIndex": 2,
+      "endItemKey": "223",
+      "endConnectionPointIndex": 0
     }
   ],
   "shapes": [
@@ -479,7 +563,7 @@
       "key": "69",
       "trueID": 0,
       "task": "initiate",
-      "type": "terminator",
+      "type": "process",
       "text": "Initiate",
       "style": "fill: #d9d9d9; stroke: #999999",
       "x": 1000,
@@ -505,11 +589,37 @@
       "key": "72",
       "trueID": 0,
       "task": "user_act",
-      "type": "process",
+      "type": "decision",
       "text": "Input Lokasi (Provisioning)",
       "style": "fill: #d9d9d9; stroke: #999999",
       "x": 1000,
       "y": 5000,
+      "width": 1800,
+      "height": 800,
+      "zIndex": 0
+    },
+    {
+      "key": "73",
+      "trueID": 0,
+      "task": "user_act",
+      "type": "process",
+      "text": "Input Networking (network)",
+      "style": "fill: #d9d9d9; stroke: #999999",
+      "x": 1000,
+      "y": 7000,
+      "width": 1800,
+      "height": 800,
+      "zIndex": 0
+    },
+    {
+      "key": "171",
+      "trueID": 0,
+      "task": "user_act",
+      "type": "process",
+      "text": "Set Network Sendiri",
+      "style": "fill: #d9d9d9; stroke: #999999",
+      "x": 4000,
+      "y": 7000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -521,8 +631,8 @@
       "type": "decision",
       "text": "Approval Sup Head",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 1000,
-      "y": 7000,
+      "x": 4000,
+      "y": 9000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -534,8 +644,8 @@
       "type": "process",
       "text": "notif success1",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 1000,
-      "y": 9000,
+      "x": 4000,
+      "y": 11000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -547,8 +657,8 @@
       "type": "process",
       "text": "Acknowledge PIC",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 1000,
-      "y": 11000,
+      "x": 4000,
+      "y": 13000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -560,8 +670,8 @@
       "type": "decision",
       "text": "Approval Manajer",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 1000,
-      "y": 13000,
+      "x": 4000,
+      "y": 15000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -573,8 +683,8 @@
       "type": "process",
       "text": "notif success2",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 1000,
-      "y": 15000,
+      "x": 4000,
+      "y": 17000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -586,8 +696,8 @@
       "type": "process",
       "text": "Konfirmasi Pekerjaan Selesai\n",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 1000,
-      "y": 17000,
+      "x": 4000,
+      "y": 19000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -599,8 +709,8 @@
       "type": "process",
       "text": "update DCO",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 1000,
-      "y": 19000,
+      "x": 4000,
+      "y": 21000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -612,8 +722,8 @@
       "type": "process",
       "text": "Notif Technician\n",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 1000,
-      "y": 21000,
+      "x": 4000,
+      "y": 23000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -625,8 +735,8 @@
       "type": "process",
       "text": "Notif PIC\n",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 1000,
-      "y": 23000,
+      "x": 4000,
+      "y": 25000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -638,8 +748,8 @@
       "type": "process",
       "text": "end success",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 1000,
-      "y": 25000,
+      "x": 4000,
+      "y": 27000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -651,8 +761,8 @@
       "type": "process",
       "text": "notif reject2",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 4000,
-      "y": 15000,
+      "x": 7000,
+      "y": 17000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -664,8 +774,8 @@
       "type": "process",
       "text": "notif reject1",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 4000,
-      "y": 9000,
+      "x": 7000,
+      "y": 11000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -677,8 +787,8 @@
       "type": "process",
       "text": "notif reject PIC\n",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 4000,
-      "y": 11000,
+      "x": 7000,
+      "y": 13000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -690,8 +800,8 @@
       "type": "process",
       "text": "Rejected By Supervisor",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 4000,
-      "y": 13000,
+      "x": 7000,
+      "y": 15000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -703,8 +813,8 @@
       "type": "process",
       "text": "notif revise1",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 7000,
-      "y": 9000,
+      "x": 10000,
+      "y": 11000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -716,8 +826,8 @@
       "type": "decision",
       "text": "switch revise",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 7000,
-      "y": 11000,
+      "x": 10000,
+      "y": 13000,
       "width": 1800,
       "height": 800,
       "zIndex": 0
@@ -729,8 +839,8 @@
       "type": "process",
       "text": "Revise Data Perangkat (Tenant)",
       "style": "fill: #d9d9d9; stroke: #999999",
-      "x": 7000,
-      "y": 13000,
+      "x": 10000,
+      "y": 15000,
       "width": 1800,
       "height": 800,
       "zIndex": 0

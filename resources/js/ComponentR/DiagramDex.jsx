@@ -13,7 +13,7 @@ class DiagramDex extends React.Component {
 
   componentDidMount() {
     const diagram = this.diagramRef.current.instance;
-    fetch('data/diagram-flow.json')
+    fetch('api/GenerateDiagramFlow/7')
       .then((response) => response.json())
       .then((json) => {
         diagram.import(JSON.stringify(json));
@@ -30,5 +30,6 @@ class DiagramDex extends React.Component {
   }
 }
 
-const root = ReactDOM.createRoot(document.getElementById("diagramDex"));
-root.render(<DiagramDex />);
+export default DiagramDex;
+// const root = ReactDOM.createRoot(document.getElementById("diagramDex"));
+// root.render(<DiagramDex />);

@@ -1,21 +1,849 @@
-[{
-    "ID": 1,
-    "Name": "Banana",
-    "Category": "Fruits"
-}, {
-    "ID": 2,
-    "Name": "Cucumber",
-    "Category": "Vegetables"
-}, {
-    "ID": 3,
-    "Name": "Apple",
-    "Category": "Fruits"
-}, {
-    "ID": 4,
-    "Name": "Tomato",
-    "Category": "Vegetables"
-}, {
-    "ID": 5,
-    "Name": "Apricot",
-    "Category": "Fruits"
-}]
+{
+    "wf_id": null,
+    "page": {
+      "wf_name": "Asset Installation",
+      "width": 15000,
+      "height": 20000,
+      "pageWidth": 15000,
+      "pageHeight": 20000,
+      "pageLandscape": false,
+      "gridSize": 100,
+      "snapToGrid": true
+    },
+    "connectors": [
+      {
+        "key": "c166",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "flow 14"
+        },
+        "beginItemKey": 171,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 78,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c70",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.7": "network iconplus"
+        },
+        "beginItemKey": 72,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 73,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c77",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.7": "network"
+        },
+        "beginItemKey": 80,
+        "beginConnectionPointIndex": 1,
+        "endItemKey": 73,
+        "endConnectionPointIndex": 1
+      },
+      {
+        "key": "c94",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.7": "network sendiri"
+        },
+        "beginItemKey": 72,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 171,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c68",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "flow 1"
+        },
+        "beginItemKey": 69,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 71,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c69",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "flow 2"
+        },
+        "beginItemKey": 71,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 72,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c72",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.7": "approve1"
+        },
+        "beginItemKey": 78,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 75,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c71",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.7": "flow 4"
+        },
+        "beginItemKey": 72,
+        "beginConnectionPointIndex": 3,
+        "endItemKey": 78,
+        "endConnectionPointIndex": 3
+      },
+      {
+        "key": "c73",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.7": "reject1"
+        },
+        "beginItemKey": 78,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 76,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c79",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.7": "data perangkat"
+        },
+        "beginItemKey": 80,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 94,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c76",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "flow 5"
+        },
+        "beginItemKey": 79,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 80,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c75",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.7": "revise1"
+        },
+        "beginItemKey": 78,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 79,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c78",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.7": "provisioning"
+        },
+        "beginItemKey": 80,
+        "beginConnectionPointIndex": 1,
+        "endItemKey": 72,
+        "endConnectionPointIndex": 1
+      },
+      {
+        "key": "c80",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "flow 6"
+        },
+        "beginItemKey": 76,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 220,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c81",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "flow 7"
+        },
+        "beginItemKey": 75,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 86,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c82",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "flow 8"
+        },
+        "beginItemKey": 85,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 192,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c83",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.7": "approve2"
+        },
+        "beginItemKey": 84,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 85,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c84",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "flow 9"
+        },
+        "beginItemKey": 192,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 81,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c85",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "Acknowledge"
+        },
+        "beginItemKey": 86,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 84,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c87",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "flow 11"
+        },
+        "beginItemKey": 87,
+        "beginConnectionPointIndex": 1,
+        "endItemKey": 78,
+        "endConnectionPointIndex": 1
+      },
+      {
+        "key": "c86",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.7": "reject2"
+        },
+        "beginItemKey": 84,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 87,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c88",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "flow 12"
+        },
+        "beginItemKey": 81,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 222,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c93",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "flow 13"
+        },
+        "beginItemKey": 94,
+        "beginConnectionPointIndex": 1,
+        "endItemKey": 71,
+        "endConnectionPointIndex": 1
+      },
+      {
+        "key": "c222",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "flow 14"
+        },
+        "beginItemKey": 220,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 82,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c225",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "flow 16"
+        },
+        "beginItemKey": 223,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 88,
+        "endConnectionPointIndex": 0
+      },
+      {
+        "key": "c224",
+        "points": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "zIndex": 0,
+        "texts": {
+          "0.5": "flow 15"
+        },
+        "beginItemKey": 222,
+        "beginConnectionPointIndex": 2,
+        "endItemKey": 223,
+        "endConnectionPointIndex": 0
+      }
+    ],
+    "shapes": [
+      {
+        "key": "69",
+        "trueID": null,
+        "task": "initiate",
+        "type": "process",
+        "text": "Initiate",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 1000,
+        "y": 1000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "71",
+        "trueID": null,
+        "task": "nihil",
+        "type": "process",
+        "text": "Input Data Perangkat (Tenant)",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 1000,
+        "y": 3000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "72",
+        "trueID": null,
+        "task": "user_act",
+        "type": "decision",
+        "text": "Input Lokasi (Provisioning)",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 1000,
+        "y": 5000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "73",
+        "trueID": null,
+        "task": "user_act",
+        "type": "process",
+        "text": "Input Networking (network)",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 1000,
+        "y": 7000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "171",
+        "trueID": null,
+        "task": "user_act",
+        "type": "process",
+        "text": "Set Network Sendiri",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 4000,
+        "y": 7000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "78",
+        "trueID": null,
+        "task": "user_act",
+        "type": "decision",
+        "text": "Approval Sup Head",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 4000,
+        "y": 9000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "75",
+        "trueID": null,
+        "task": "nihil",
+        "type": "process",
+        "text": "notif success1",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 4000,
+        "y": 11000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "86",
+        "trueID": null,
+        "task": "user_act",
+        "type": "process",
+        "text": "Acknowledge PIC",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 4000,
+        "y": 13000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "84",
+        "trueID": null,
+        "task": "user_act",
+        "type": "decision",
+        "text": "Approval Manajer",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 4000,
+        "y": 15000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "85",
+        "trueID": null,
+        "task": "nihil",
+        "type": "process",
+        "text": "notif success2",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 4000,
+        "y": 17000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "192",
+        "trueID": null,
+        "task": "user_act",
+        "type": "process",
+        "text": "Konfirmasi Pekerjaan Selesai\n",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 4000,
+        "y": 19000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "81",
+        "trueID": null,
+        "task": "apiCall",
+        "type": "process",
+        "text": "update DCO",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 4000,
+        "y": 21000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "222",
+        "trueID": null,
+        "task": "email",
+        "type": "process",
+        "text": "Notif Technician\n",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 4000,
+        "y": 23000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "223",
+        "trueID": null,
+        "task": "email",
+        "type": "process",
+        "text": "Notif PIC\n",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 4000,
+        "y": 25000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "88",
+        "trueID": null,
+        "task": "nihil",
+        "type": "process",
+        "text": "end success",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 4000,
+        "y": 27000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "87",
+        "trueID": null,
+        "task": "email",
+        "type": "process",
+        "text": "notif reject2",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 7000,
+        "y": 17000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "76",
+        "trueID": null,
+        "task": "email",
+        "type": "process",
+        "text": "notif reject1",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 7000,
+        "y": 11000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "220",
+        "trueID": null,
+        "task": "email",
+        "type": "process",
+        "text": "notif reject PIC\n",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 7000,
+        "y": 13000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "82",
+        "trueID": null,
+        "task": "rejected",
+        "type": "process",
+        "text": "Rejected By Supervisor",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 7000,
+        "y": 15000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "79",
+        "trueID": null,
+        "task": "nihil",
+        "type": "process",
+        "text": "notif revise1",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 10000,
+        "y": 11000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "80",
+        "trueID": null,
+        "task": "nihil",
+        "type": "decision",
+        "text": "switch revise",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 10000,
+        "y": 13000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      },
+      {
+        "key": "94",
+        "trueID": null,
+        "task": "user_act",
+        "type": "process",
+        "text": "Revise Data Perangkat (Tenant)",
+        "style": "fill: #d9d9d9; stroke: #999999",
+        "x": 10000,
+        "y": 15000,
+        "width": 1800,
+        "height": 800,
+        "zIndex": 0
+      }
+    ]
+  }

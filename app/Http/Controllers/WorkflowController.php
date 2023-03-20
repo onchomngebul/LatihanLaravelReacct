@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\BussinessFacade\WorkflowFacade;
 use App\Models\Workflow;
 use Illuminate\Http\Request;
 
@@ -63,6 +64,10 @@ class WorkflowController extends Controller
 
     public function GenerateDiagramFlow($id)
     {
-        return Workflow::find($id);
+        $result = (new WorkflowFacade)->GenerateDiagramFlow($id);
+        
+        return response()->json($result);
     }
+
+
 }
