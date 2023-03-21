@@ -6,15 +6,29 @@ import DiagramDex from './DiagramDex';
 class MainComp extends React.Component {
     constructor(props) {
       super(props);
+      this.state = {
+        selectedValue: null // default value for selected dropdown value
+      };
+    }
+
+    handleDropdownChange = (event) => {
+      this.setState({ selectedValue: event.value });
+      console.log(this.state.selectedValue);
     }
 
     render() {
       return (
         <div>
             <div className="game-board">
-                <DDWorkflow />
+                <DDWorkflow 
+                  onChange={this.handleDropdownChange} >
+
+                </DDWorkflow>
             </div>
-            <DiagramDex></DiagramDex>
+            <DiagramDex
+              selectedValue={this.state.selectedValue}>
+
+            </DiagramDex>
         </div>
       );
     }

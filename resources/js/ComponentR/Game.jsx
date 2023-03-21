@@ -34,6 +34,7 @@ import ReactDOM from 'react-dom/client';
       }
     }
 
+
     handleClick(i) {
       var tempSQ = this.state.squares.slice();
       var nextTurn = this.state.playerTurn;

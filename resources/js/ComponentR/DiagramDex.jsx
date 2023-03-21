@@ -12,8 +12,20 @@ class DiagramDex extends React.Component {
   }
 
   componentDidMount() {
+    if (this.props.selectedValue != null){
+      this.updateDiagram();
+    }
+  }
+
+  componentDidUpdate(prevProps) {
+    if (prevProps.selectedValue !== this.props.selectedValue) {
+      this.updateDiagram();
+    }
+  }
+
+  updateDiagram = () => {
     const diagram = this.diagramRef.current.instance;
-    fetch('api/GenerateDiagramFlow/7')
+    fetch('api/GenerateDiagramFlow/' + this.props.selectedValue)
       .then((response) => response.json())
       .then((json) => {
         diagram.import(JSON.stringify(json));
@@ -21,7 +33,7 @@ class DiagramDex extends React.Component {
       .catch(() => {
         throw new Error('Data Loading Error');
       });
-  }
+  };
 
   render() {
     return (
