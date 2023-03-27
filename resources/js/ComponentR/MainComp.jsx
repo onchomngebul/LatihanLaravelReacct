@@ -13,7 +13,6 @@ class MainComp extends React.Component {
 
     handleDropdownChange = (event) => {
       this.setState({ selectedValue: event.value });
-      console.log(this.state.selectedValue);
     }
 
     render() {
@@ -34,5 +33,7 @@ class MainComp extends React.Component {
     }
   }
 
-const root = ReactDOM.createRoot(document.getElementById("maincomp"));
-root.render(<MainComp />);
+  if (document.getElementById('maincomp')) {
+    const root = ReactDOM.createRoot(document.getElementById("maincomp"));
+    root.render(<MainComp />);
+  }

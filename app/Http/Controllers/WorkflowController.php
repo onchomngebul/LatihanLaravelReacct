@@ -31,9 +31,14 @@ class WorkflowController extends Controller
      *     )
      */
     
+     public function management()
+     {
+         return view('workflow');
+     }
+
     public function index()
     {
-        return Workflow::all();
+        return Workflow::where('is_deleted', 'false')->get();
     }
  
     public function show($id)
@@ -57,8 +62,9 @@ class WorkflowController extends Controller
     public function destroy(Request $request, $id)
     {
         $article = Workflow::findOrFail($id);
-        $article->delete();
-
+        //$article->delete();
+        $article->is_deleted = true;
+        $article->update($request->all());
         return 204;
     }
 

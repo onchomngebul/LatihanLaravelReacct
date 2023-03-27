@@ -8,4 +8,5 @@ import 'devextreme/dist/css/dx.dark.css';
 // import './ComponentR/DiagramDex';
 // import './ComponentR/dropdown';
 import './ComponentR/MainComp';
+import './ComponentR/Workflow/List';
 // import './ComponentR/coba';
