@@ -5,26 +5,26 @@ import 'devextreme/dist/css/dx.dark.css';
 import { DataGrid, Column, Editing, FilterRow } from 'devextreme-react/data-grid';
 
 
-function ListWorkflow() {
+function ListWayFlow() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get(`api/workflows`)
+        axios.get(`api/wayflow`)
           .then(response => setData(response.data));
       }, []);
 
     function handleStore(e) {
-        axios.post(`api/workflows`, e.data)
+        axios.post(`api/wayflow`, e.data)
             .catch((error) => console.log(error));
     }
 
     function handleDelete(e) {
-        axios.delete(`api/workflows/${e.key}`)
+        axios.delete(`api/wayflow/${e.key}`)
             .catch((error) => console.log(error));
     }
 
     function handleUpdate(e) {
-        axios.put(`api/workflows/${e.key}`, e.data)
+        axios.put(`api/wayflow/${e.key}`, e.data)
             .catch((error) => console.log(error));
     }
     
@@ -46,17 +46,16 @@ function ListWorkflow() {
             />
             <FilterRow visible={true} />
             <Column dataField="id" allowEditing={false} visible={false}/>
-            <Column dataField="wf_name"></Column>
-            <Column dataField="description"></Column>
-            <Column dataField="template_no_record"></Column>
-            <Column dataField="template_form_json" width="200"></Column>
-            <Column dataField="global_var_json"></Column>
-            <Column dataField="is_active" dataType="boolean"></Column>
+            <Column dataField="wf_id"></Column>
+            <Column dataField="flow_name"></Column>
+            <Column dataField="flow_rule_json" width="200"></Column>
+            <Column dataField="logic_rule" width="200"></Column>
+            <Column dataField="taskid_origin"></Column>
+            <Column dataField="taskid_aim"></Column>
         </DataGrid>
     );
 }
-
-if (document.getElementById('ListWorkflow')) {
-    const root = ReactDOM.createRoot(document.getElementById("ListWorkflow"));
-    root.render(<ListWorkflow />);
+if (document.getElementById('ListWayFlow')) {
+    const root = ReactDOM.createRoot(document.getElementById("ListWayFlow"));
+    root.render(<ListWayFlow />);
 }

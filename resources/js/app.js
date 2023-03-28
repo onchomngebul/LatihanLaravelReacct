@@ -9,4 +9,7 @@ import 'devextreme/dist/css/dx.dark.css';
 // import './ComponentR/dropdown';
 import './ComponentR/MainComp';
 import './ComponentR/Workflow/List';
+import './ComponentR/Task/List';
+import './ComponentR/ViewPage/List';
+import './ComponentR/WayFlow/List';
 // import './ComponentR/coba';

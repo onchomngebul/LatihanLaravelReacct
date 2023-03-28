@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\WorkflowController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +19,6 @@ Route::get('/', function () {
 
 
 Route::get('workflow', 'App\Http\Controllers\WorkflowController@management')->name('wfmanage');
+Route::get('task', 'App\Http\Controllers\TaskController@management')->name('taskmanage');
+Route::get('viewpage', 'App\Http\Controllers\ViewPageController@management')->name('viewpagemanage');
+Route::get('wayflow', 'App\Http\Controllers\WayFlowController@management')->name('wayflowmanage');
